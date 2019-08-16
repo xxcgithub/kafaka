@@ -1,30 +1,28 @@
 package com.example.kafaka2.json;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONPObject;
+import javafx.scene.effect.SepiaTone;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.Test;
 
 import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
  * User: user
- * Date: 2019/8/12
- * Time: 19:31
+ * Date: 2019/8/14
+ * Time: 18:45
  */
 @Slf4j
 public class JsonTest {
 
-    public static void main(String[] args) {
-        JsonTest.g();
+    @Test
+    public  void  jsonTest (){
 
-
-    }
-
-
-    public static void g (){
-        /*  String string = "{"code":400,"msg":"error"}";
+      /*  String string = "{"code":400,"msg":"error"}";
 
         JSON json = {"code":400,"msg":"face not detected"};*/
         List<Integer> list = new ArrayList<>();
@@ -45,6 +43,10 @@ public class JsonTest {
 
 
 
+        student student = new student();
+        student.setAge(1);
+        student.setName("b");
+        System.out.println(student.toString());
 
 
         Set<Integer> set  =  new HashSet<>();
