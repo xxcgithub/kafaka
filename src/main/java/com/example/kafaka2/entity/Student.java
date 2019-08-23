@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.annotation.*;
  * Date: 2019/8/5
  * Time: 11:22
  */
-public class Student {
+public class Student extends MetaDate {
 
     @TableId(value = "id", type = IdType.UUID)
     private String  id;
