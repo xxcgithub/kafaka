@@ -28,4 +28,7 @@ public abstract class MetaDate implements Serializable {
 
 
     private String xxcTest;
+
+
+    private String ww;
 }
