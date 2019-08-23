@@ -22,5 +22,10 @@ public abstract class MetaDate implements Serializable {
 
     public void setCreateBy(String createBy) {
         this.createBy = createBy;
+
+
     }
+
+
+    private String xxcTest;
 }
