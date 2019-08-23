@@ -52,6 +52,14 @@
         </dependency>
 
 
+        <!--  使用一个 excel 注解 -->
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-annotation</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
