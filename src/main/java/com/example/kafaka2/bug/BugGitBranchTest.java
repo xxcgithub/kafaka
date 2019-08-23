@@ -7,4 +7,7 @@ package com.example.kafaka2.bug;
  * Time: 11:52
  */
 public class BugGitBranchTest {
+    public static void main(String[] args) {
+        System.out.println("123");
+    }
 }
