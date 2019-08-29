@@ -17,6 +17,8 @@ public class StringTest {
 
         int  a3 = 3;
 
+        int a4 = 4;
+
 
 
 
