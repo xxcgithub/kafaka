@@ -9,6 +9,12 @@ package com.example.kafaka2.stringTest;
 public class StringTest {
 
     public static void main(String[] args) {
+
+        int a1 =  1;
+
+
+
+
         String a = "admin";
         Boolean A = false;
         if ("admin".equals(a)){
