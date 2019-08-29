@@ -15,6 +15,9 @@ public class StringTest {
         int a2 = 2;
 
 
+        int  a3 = 3;
+
+
 
 
         String a = "admin";
